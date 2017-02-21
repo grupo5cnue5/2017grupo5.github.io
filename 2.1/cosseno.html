@@ -1,0 +1,19 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> <!-- PARA CORRETA ACENTUAÇÃO --> 
+<title>COSSENO DE ÂNGULO</title> 
+<br>
+<script src='funcoes-cos.js'></script> <!-- DECLARAÇÃO QUE ESTÁ USANDO O ARQUIVO funcoes.js, QUE TEM QUE ESTAR NA MESMA PASTA DESTE ARQUIVO HTML --> 
+Ângulo x(Graus decimais):<br> <!-- PULA LINHA --> 
+<input type="number" id="angulo"> <br><br><!-- CAIXA DE TEXTO --> 
+Número de termos do polinômio de McLaurin(quanto maior, mais exato):<br> 
+<input type="number" id="nvezes"> <!-- CAIXA DE TEXTO --> 
+<br><br> 
+<button onclick="fcos()">CALCULAR</button> <!-- BOTÃO QUE CHAMA A FUNÇÃO farea, QUE ESTÁ NO ARQUIVO funcoes.js-->
+<br><br>
+cos(x) exato = <ins id="ecos"></ins> <!-- darea É UMA VARIÁVEL USADA PARA MOSTRAR O RESULTADO --> 
+<br><br>
+cos(x) pelo polinômio de McLaurin = <ins id="mcos"></ins>
+<br><br>
+Erro = <ins id="derro"></ins>
+<br><br>
+</html>

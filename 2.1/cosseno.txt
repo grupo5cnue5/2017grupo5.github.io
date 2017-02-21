@@ -1,0 +1,20 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> <!-- PARA CORRETA ACENTUAÇÃO --> 
+<title>ÁREA DE TRIÂNGULO</title> 
+Para calcular a área de um triângulo, basta saber o valor de sua base e altura. 
+<br>
+Assim, multiplicar a base e a altura e dividir tudo isso por dois.
+<br>
+Ou de maneira mais rápida e simples, é só colocar os valores que esse singelo site resolve esse problema para você
+<br>
+<br>
+<script src='funcoes.js'></script> <!-- DECLARAÇÃO QUE ESTÁ USANDO O ARQUIVO funcoes.js, QUE TEM QUE ESTAR NA MESMA PASTA DESTE ARQUIVO HTML --> 
+base:<br> <!-- PULA LINHA --> 
+<input type="number" id="base" value="30"> <!-- CAIXA DE TEXTO --> 
+<br> 
+altura:<br> 
+<input type="number" id="altura" value="40"> <!-- CAIXA DE TEXTO --> 
+<br><br> 
+<button onclick="farea()">ÁREA</button> <!-- BOTÃO QUE CHAMA A FUNÇÃO farea, QUE ESTÁ NO ARQUIVO funcoes.js-->
+Área do triângulo = <ins id="darea"></ins> <!-- darea É UMA VARIÁVEL USADA PARA MOSTRAR O RESULTADO --> 
+</html>
